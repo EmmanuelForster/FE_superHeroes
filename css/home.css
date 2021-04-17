@@ -70,7 +70,8 @@ h1 {
 section{
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -187,9 +188,10 @@ footer {
     height: 50px;
     width: 100%;
     bottom: 0px;
+    display: flex;
+    flex-direction: column;
     
-    
-    position: absolute;
+    position: relative;
 }
 
 .terms {
