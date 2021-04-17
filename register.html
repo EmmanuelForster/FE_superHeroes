@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+
+
+  <div class="discount">20% de descuento en todos los productos!</div>
+
+  <header>
+    <img src="img/pcVector.png" alt="pcVector" class="pcVector"></img>
+    <h1>Nombre Tienda</h1>
+  </header>
+
+  <main>
+
+
+    <div class="register">
+
+
+      <form action="/registro.html" method="POST">
+
+        <h2>Registro</h2>
+
+        <label for="firstName"></label>
+        <input type="text" id="firstName" placeholder="Emmanuel" name="nombre" required>
+
+        <label for="lastName"></label>
+        <input type="text" id="lastName" placeholder="Forster" name="apellido" required>
+
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="ejemplo@mail.com" name="password" required>
+
+        <label for="country"></label>
+        <select name="country" required>
+          <option> Argentina </option>
+          <option> Colombia </option>
+          <option> Brasil </option>
+        </select>
+
+
+        <div class="buttons">
+          <input type="reset" id="reset" value="Resetear">
+
+          <input type="submit" id="send" value="Entrar">
+        </div>
+
+        <div class="account">
+          <p><a href="login.html"><span style=color:#00669F;>¿Ya tenés una cuenta?</span> Ingresá</a></p>
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class='terms'> Todos los derechos reservados a FORSTER EMMANUEL</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+
+}
+
+.pcVector {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.discount {
+    background-color: #1CD1B0;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+
+    z-index: 2;
+}
+
+
+header {
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 70px;
+
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: normal;
+    height: 84px;
+
+    padding: 10px 100px;
+    position: absolute;
+    top: 0px;
+}
+
+.register {
+    position: relative;
+    width: 645;
+    height: 682;
+    display: flex;
+    justify-content: center;
+    font-family: Karla;
+    font-weight: bolder;
+
+    top: 100px;
+}
+
+h2 {
+    color: black;
+    top: 29px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 40px;
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+input {
+    display: block;
+    margin: 20px 0px;
+    border-color: black;
+    border-width: 0.5mm;
+    font-family: Karla;
+    width: 450px;
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 18px;
+}
+
+select {
+    display: flex;
+    padding: 0px 15px;
+    border-color: black;
+    border-width: 0.5mm;
+    width:100%;
+    width: 483px;
+    height: 40px;
+    font-family: Karla;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    background-color: #888888;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 220px;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 23.011px;
+    border: 0px
+}
+
+#send {
+    background-color: #1CD1B0;
+    width: 220px;
+    height: 40px;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 23.011px;
+    border: 0px
+}
+
+.account {
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+
+
+    position: absolute;
+}
+
+.terms {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
