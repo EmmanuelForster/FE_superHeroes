@@ -118,13 +118,18 @@ select {
 #send {
     background-color: #1CD1B0;
     width: 220px;
-    height: 40px;
+    height: 30px;
     font-family: Karla;
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
     border-radius: 23.011px;
-    border: 0px
+    border: 0px;
+    padding-top: 8px;
+    margin-top:20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 #comments {
@@ -132,12 +137,6 @@ select {
     border-width: 0.5mm;
 }
 
-
-.miscellany{
-    position: absolute;
-    bottom: 100px;
-    right: 730px;
-}
 
 
 footer {

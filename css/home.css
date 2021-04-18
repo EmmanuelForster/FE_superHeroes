@@ -62,7 +62,8 @@ h1 {
     font-size: 25px;
     height: 84px;
         
-    padding: 10px 100px ;
+    padding-left: 100px ;
+    display: flex;
     position: absolute;
     top: 0px;
 }
@@ -190,8 +191,7 @@ footer {
     bottom: 0px;
     display: flex;
     flex-direction: column;
-    
-    position: relative;
+    position: fixed;
 }
 
 .terms {
