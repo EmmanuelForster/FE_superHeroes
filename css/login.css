@@ -101,6 +101,7 @@ select {
     justify-content: space-between;
 
 }
+a {text-decoration: none;}
 
 #send {
     background-color: #1CD1B0;
