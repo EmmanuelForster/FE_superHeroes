@@ -1,0 +1,127 @@
+<!--https://www.figma.com/file/9XZ12ORXQuvMNg3ydKQtFo/Formulario-ll?node-id=48%3A147-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu super favorito</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./css/add.css">
+
+</head>
+
+<body>
+
+  <div class="discount">20% de descuento en todos los productos!</div>
+
+  <header>
+    <img src="img/pcVector.png" alt="pcVector" class="pcVector"></img>
+    <h1>Nombre Tienda</h1>
+  </header>
+
+  <nav class="navigator">
+    <a href="contact.html">Contacto</a>
+    <a href="register.html">Registrarme</a>
+    <a href="login.html">Ingresar</a>
+
+  </nav>
+  <main>
+
+    <div class="form-bg">
+
+      <div class="form">
+        <h3>Añadí tu super!</h3>
+
+        <p>Agregá tu personaje favorito completando las opciones</p>
+
+        <form action="#" method="GET">
+
+          <div class="fieldset">
+
+            <label for="nombre" class="field">*Nombre</label>
+            <input type="text" name="nombre" id="nombre" tabindex="1">
+
+            <label for="date" class="field">*Fecha</label>
+            <input type="date" name="date" id="date" tabindex="3">
+
+            <input type="textarea" placeholder="Descripcion" style="height: 250px; margin-top: 15%;" tabindex="5" class="field">
+
+          </div>
+
+
+          <div class="fieldset">
+
+            <label for="specie" class="field">*Especie</label>
+            <select name="especie" id="especie" tabindex="2">
+            <optgroup>
+              <option value="-">Seleccionar</option>
+              <option value="Criptoniano">Criptoniano</option>
+              <option value="Sayajin">Sayajin</option>
+              <option value="Namecusei">Namecusei</option>
+              <option value="Terricola">Terricola</option>
+            </optgroup>
+            </select>
+
+            <p>Agregar Foto</p>
+            <input type="file" name="foto" id="foto" tabindex="4">
+
+            <p>Poderes</p>
+
+            <div>
+
+              <label for="volar" class="checkmark">
+                <input type="checkbox" name='volar' value='volar' class="alternativas" tabindex="6"> Volar
+               </label>
+
+              <label for="superinteligencia" class="checkmark">
+                <input type="checkbox" name='superinteligencia' value='superinteligencia' tabindex="7"> Superinteligencia
+              </label>
+
+              <label for="vistarayo" class="checkmark">
+                <input type="checkbox" name='vistarayo' value='vista de rayo laser' tabindex="8"> Vista de rayo láser
+              </label>
+
+              <label for="fatwallet" class="checkmark">
+                <input type="checkbox" name='fatwallet' value="billetera gorda" tabindex="9"> Billetera gorda
+              </label>
+
+              <hr>
+
+              <p>Tipo de personaje</p>
+
+              <label for="type" class="checkmark">
+              <input type="radio" name='type' value='Heroes' tabindex="10"> Héroe / Heroina
+              </label>
+
+
+              <label for="type" class="checkmark">
+              <input type="radio" name='type' value='Vilanos' tabindex="11"> Villano / Villana
+              </label>  
+
+            </div>
+
+          </div>
+
+          <input type="submit" class="submit" value="Añadir" tabindex="12">
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p class='terms'> Todos los derechos reservados a FORSTER EMMANUEL</p>
+  </footer>
+
+</body>
+
+</html>
