@@ -7,7 +7,7 @@
 
 
 .form-bg {
-    margin: 10% auto;
+    margin: 1% auto 5%;
     background-color: #00669F;
     border-radius: 49.0901px;
     width: 60%;
@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-    /* text-align: left; */
+    text-align: center;
     margin: 10px;
 }
 
@@ -45,10 +45,17 @@ p {
 }
 
 .field {
-    width: 100%;
-    /* margin-bottom: 20px; */
+    width: 100%; 
+    margin: 10px;
     
+}
 
+.description {
+    margin-top: 10%; 
+    padding: 10px;
+    border-radius: 15.3407px;
+    box-sizing: border-box;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
 }
 
 input {
@@ -57,9 +64,16 @@ input {
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     /* width: 100%; */
     /* margin: 0 auto; */
-    
+    padding: 10px
 }
 
+select{
+    padding: 10px
+}
+
+textarea {
+    padding: 10px
+}
 
 .submit {
     background-color: #1CD1B0;
@@ -79,7 +93,6 @@ footer {
     height: 50px;
     width: 100%;
     bottom: 0px;
-    position: fixed;
 }
 
 .terms {
@@ -88,15 +101,15 @@ footer {
     font-size: 13px;
 }
 
-p {
-    text-align: left;
-}
-
 .checkmark {
     display: block;
     left: 0;
     width: unset;
 }   
-label{
+/* label{
     margin: 10px;
+} */
+
+.add {
+    text-align: left;
 }
