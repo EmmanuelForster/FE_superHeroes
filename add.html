@@ -9,7 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tu super favorito</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Karla&family=Roboto&display=swap"
+    rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="./css/add.css">
@@ -22,7 +24,7 @@
 
   <header>
     <img src="img/pcVector.png" alt="pcVector" class="pcVector"></img>
-    <h1>Nombre Tienda</h1>
+    <h1><a href="/index.html">Nombre Tienda</a></h1>
   </header>
 
   <nav class="navigator">
@@ -44,14 +46,15 @@
 
           <div class="fieldset">
 
-            <label for="nombre" class="field">*Nombre</label>
+            <label for="nombre" class="required field name">Nombre</label>
             <input type="text" name="nombre" id="nombre" tabindex="1">
 
-            <label for="date" class="field">*Fecha</label>
-            <input type="date" name="date" id="date" tabindex="3">
-            
-            <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion" tabindex="5" class="description"></textarea>
-            
+            <label for="date" class="field">Fecha</label>
+            <input type="date" name="date" tabindex="3">
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion" tabindex="5"
+              class="description"></textarea>
+
 
           </div>
 
@@ -60,36 +63,39 @@
 
             <label for="specie" class="field">*Especie</label>
             <select name="especie" id="especie" tabindex="2">
-            <optgroup>
-              <option value="-">Seleccionar</option>
-              <option value="Criptoniano">Criptoniano</option>
-              <option value="Sayajin">Sayajin</option>
-              <option value="Namecusei">Namecusei</option>
-              <option value="Terricola">Terricola</option>
-            </optgroup>
+              <optgroup>
+                <option value="-" disabled selected hidden>Seleccionar</option>
+                <option value="Criptoniano">Criptoniano</option>
+                <option value="Sayajin">Sayajin</option>
+                <option value="Namecusei">Namecusei</option>
+                <option value="Terricola">Terricola</option>
+              </optgroup>
             </select>
 
             <p class="add">Agregar Foto</p>
-            <input type="file" name="foto" id="foto" tabindex="4">
+            <input type="file" name="foto" id="foto" tabindex="4" class="file">
 
             <p class="add">Poderes </p>
 
             <div>
 
               <label for="volar" class="checkmark">
-                <input type="checkbox" name='volar' value='volar' class="alternativas" tabindex="6"> Volar
-               </label>
+                <input type="checkbox" name='volar' value='volar' id="volar" class="alternativas" tabindex="6"> Volar
+              </label>
 
               <label for="superinteligencia" class="checkmark">
-                <input type="checkbox" name='superinteligencia' value='superinteligencia' tabindex="7"> Superinteligencia
+                <input type="checkbox" name='superinteligencia' id="superinteligencia" value='superinteligencia'
+                  tabindex="7"> Superinteligencia
               </label>
 
               <label for="vistarayo" class="checkmark">
-                <input type="checkbox" name='vistarayo' value='vista de rayo laser' tabindex="8"> Vista de rayo láser
+                <input type="checkbox" name='vistarayo' id="vistarayo" value='vista de rayo laser' tabindex="8"> Vista
+                de rayo láser
               </label>
 
               <label for="fatwallet" class="checkmark">
-                <input type="checkbox" name='fatwallet' value="billetera gorda" tabindex="9"> Billetera gorda
+                <input type="checkbox" name='fatwallet' id="fatwallet" value="billetera gorda" tabindex="9"> Billetera
+                gorda
               </label>
 
               <hr>
@@ -97,13 +103,14 @@
               <p class="add">Tipo de personaje</p>
 
               <label for="type" class="checkmark">
-              <input type="radio" name='type' value='Heroes' tabindex="10"> Héroe / Heroina
+
+                <input type="radio" name='type' id="type" value='Heroes' tabindex="10"> Héroe / Heroina
               </label>
 
 
-              <label for="type" class="checkmark">
-              <input type="radio" name='type' value='Vilanos' tabindex="11"> Villano / Villana
-              </label>  
+              <label for="villains" class="checkmark">
+                <input type="radio" name='type' id="villains" value='Vilanos' tabindex="11"> Villano / Villana
+              </label>
 
             </div>
 

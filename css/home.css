@@ -4,6 +4,9 @@
     font-weight: normal;
 }
 
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap'); */
+
 body{
     margin:0px;
   
@@ -59,13 +62,11 @@ header {
 
 h1 {
     color: #FFFFFF;
-    font-size: 25px;
-    height: 84px;
-        
+    font-size: 25px;      
     padding-left: 100px ;
     display: flex;
     position: absolute;
-    top: 0px;
+    top: 20%;
 }
 
 section{
@@ -153,7 +154,8 @@ section{
 
 h3 {
     font-size: 25px;
-    font-weight: 550;
+    font-family: Inter;
+    font-weight: 800;
     padding-top: 70px;
 }
 
@@ -191,7 +193,6 @@ footer {
     bottom: 0px;
     display: flex;
     flex-direction: column;
-    position: fixed;
 }
 
 .terms {
@@ -215,4 +216,10 @@ footer {
     text-align: center;
     z-index: 999;
     text-decoration: none;
+    transition: 0.5s;
 } 
+.button:hover {
+    background-color: #001D2D;
+    background-blend-mode: discrete;
+}
+
