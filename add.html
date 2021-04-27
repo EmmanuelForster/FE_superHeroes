@@ -47,10 +47,10 @@
           <div class="fieldset">
 
             <label for="nombre" class="required field name">Nombre</label>
-            <input type="text" name="nombre" id="nombre" tabindex="1">
+            <input required type="text" name="nombre" id="nombre" tabindex="1">
 
-            <label for="date" class="field">Fecha</label>
-            <input type="date" name="date" tabindex="3">
+            <label for="date" class="required field">Fecha</label>
+            <input required type="date" name="date" id='date' tabindex="3">
 
             <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion" tabindex="5"
               class="description"></textarea>
@@ -61,10 +61,10 @@
 
           <div class="fieldset">
 
-            <label for="specie" class="field">*Especie</label>
-            <select name="especie" id="especie" tabindex="2">
+            <label for="specie" class="required field">Especie</label>
+            <select required name="specie" id="specie" tabindex="2">
               <optgroup>
-                <option value="-" disabled selected hidden>Seleccionar</option>
+                <option value="-" invalid selected hidden>Seleccionar</option>
                 <option value="Criptoniano">Criptoniano</option>
                 <option value="Sayajin">Sayajin</option>
                 <option value="Namecusei">Namecusei</option>

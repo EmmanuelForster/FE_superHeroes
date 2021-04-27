@@ -220,6 +220,9 @@ footer {
 } 
 .button:hover {
     background-color: #001D2D;
-    background-blend-mode: discrete;
+}
+
+.card:hover {
+    transform: scale(1.10);
 }
 

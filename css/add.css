@@ -63,8 +63,6 @@ input {
     border-radius: 15.3407px;
     box-sizing: border-box;
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
-    /* width: 100%; */
-    /* margin: 0 auto; */
     padding: 10px
 }
 
@@ -118,24 +116,24 @@ h1 a {
     content: "*"
 }
 
-input[type="text"]:focus {
-    background: #AFF9FE;
-    border: 1.53407px solid #DDDDDD;
-    outline: none;
+#nombre:invalid{
+    border: 1.53407px solid #ff0000;
 }
 
-input[type="date"]:required {
-    border: 1px solid red;
-    outline: none;
+#nombre:valid{
+    border: 1.53407px solid #09ff00;
 }
+
+input:focus, textarea:focus, select:focus {
+    background: #d2fcff;
+    border: 1.53407px solid #AFF9FE;
+    outline: none;  
+}
+
 
 input[type="submit"]:hover {
-    position: relative;
-    left: -1%;
+    transform: scale(1.10);
+    color: white;
     background: #001D2D; 
-    font-size: larger;
-    width: 52%;
-    color: white; 
-    font-size: 130%;
 }  
 
