@@ -65,50 +65,52 @@
             <select required name="specie" id="specie" tabindex="2">
               <optgroup>
                 <option value="-" invalid selected hidden>Seleccionar</option>
-                <option value="Criptoniano">Criptoniano</option>
-                <option value="Sayajin">Sayajin</option>
-                <option value="Namecusei">Namecusei</option>
-                <option value="Terricola">Terricola</option>
+                <option value="Criptoniano" >Criptoniano</option>
+                <option value="Sayajin" >Sayajin</option>
+                <option value="Namecusei" >Namecusei</option>
+                <option value="Terricola" >Terricola</option>
               </optgroup>
             </select>
 
             <p class="add">Agregar Foto</p>
             <input type="file" name="foto" id="foto" tabindex="4" class="file">
 
-            <p class="add">Poderes </p>
+            
 
-            <div>
+            <div class="habilities">
 
-              <label for="volar" class="checkmark">
+              <p class="add">Poderes </p>
+
+              <label for="volar" class="label">
                 <input type="checkbox" name='volar' value='volar' id="volar" class="alternativas" tabindex="6"> Volar
               </label>
 
-              <label for="superinteligencia" class="checkmark">
+              <label for="superinteligencia" class="label">
                 <input type="checkbox" name='superinteligencia' id="superinteligencia" value='superinteligencia'
                   tabindex="7"> Superinteligencia
               </label>
 
-              <label for="vistarayo" class="checkmark">
+              <label for="vistarayo" class="label">
                 <input type="checkbox" name='vistarayo' id="vistarayo" value='vista de rayo laser' tabindex="8"> Vista
                 de rayo láser
               </label>
 
-              <label for="fatwallet" class="checkmark">
+              <label for="fatwallet" class="label">
                 <input type="checkbox" name='fatwallet' id="fatwallet" value="billetera gorda" tabindex="9"> Billetera
                 gorda
               </label>
 
               <hr>
 
-              <p class="add">Tipo de personaje</p>
+              <p>Tipo de personaje</p>
 
-              <label for="type" class="checkmark">
+              <label for="type" class="label">
 
                 <input type="radio" name='type' id="type" value='Heroes' tabindex="10"> Héroe / Heroina
               </label>
 
 
-              <label for="villains" class="checkmark">
+              <label for="villains" class="label">
                 <input type="radio" name='type' id="villains" value='Vilanos' tabindex="11"> Villano / Villana
               </label>
 

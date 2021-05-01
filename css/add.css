@@ -1,5 +1,18 @@
 @import './home.css';
 
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator {
+    height: 1%;
+    
+    
+}
+
 :root {
     margin: 0 auto;
     color: white;
@@ -16,7 +29,7 @@
     position: relative
 }
 
-form{
+form {
     position: relative
 }
 
@@ -61,7 +74,7 @@ p {
 
 input {
     border-radius: 15.3407px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     padding: 10px
 }
@@ -71,7 +84,8 @@ input {
 }
 
 select {
-    padding: 10px
+    padding: 10px;
+    font-family: Roboto;
 }
 
 textarea {
@@ -89,11 +103,11 @@ textarea {
     transition: 0.5s;
 }
 
-h1 a {
+a {
     margin: 0%;
     text-decoration: none;
     background-color: transparent;
-    padding:0%;
+    padding: 0%;
 }
 
 .terms {
@@ -102,13 +116,13 @@ h1 a {
     font-size: 13px;
 }
 
-.checkmark {
+.label {
     display: block;
     left: 0;
     width: unset;
 }
 
-.add {
+p {
     text-align: left;
 }
 
@@ -116,24 +130,74 @@ h1 a {
     content: "*"
 }
 
-#nombre:invalid{
+#nombre:invalid {
     border: 1.53407px solid #ff0000;
 }
 
-#nombre:valid{
+#nombre:valid {
     border: 1.53407px solid #09ff00;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
     background: #d2fcff;
     border: 1.53407px solid #AFF9FE;
-    outline: none;  
+    outline: none;
 }
 
 
 input[type="submit"]:hover {
     transform: scale(1.10);
     color: white;
-    background: #001D2D; 
-}  
+    background: #001D2D;
+}
 
+@media screen and (max-width:768px) {
+    .fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0%;
+    }
+    #nombre {
+        width: 100%;
+    }
+    #date {
+        width: 100%;
+    }
+    hr {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .label {
+        display: block;
+        padding-left: 25%;
+    }
+
+    .habilities{
+        width: 100%;
+        justify-content: center
+    }
+    p {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    textarea {
+        width: 100%;
+    }
+    select{
+        width: 40%;
+    }
+    .submit{
+        margin-top: 5%;
+    }
+ }
+
+ @media screen and (max-width:480px) {
+    .form-bg {
+        width: 100vw;
+    }
+ }
