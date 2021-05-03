@@ -191,6 +191,7 @@ footer {
     height: 50px;
     width: 100%;
     bottom: 0px;
+    position:absolute;
     display: flex;
     flex-direction: column;
 }
@@ -224,5 +225,11 @@ footer {
 
 .card:hover {
     transform: scale(1.10);
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        position: relative;
+    }
 }
 
